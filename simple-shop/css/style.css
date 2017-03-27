@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.inactive {
+	opacity: 0.1;
+}
+
+.sidebar {
+	float: left;
+	width: 120px;
+	padding: 0.5em 1em;
+	outline: 1px solid blue;
+}
+
+.navigation {
+	overflow: hidden;
+	list-style: none;
+	outline: 1px solid purple;
+}
+
+.navigation > li{
+	float: left;
+}
+
+.navigation > li > a {
+	display: block;
+	padding: 0.5em 1em;
+}
+
+.navigation > li > a:hover,
+.navigation > li > a.active {
+	background: rgba(0,0,0,.1);
+}
+
+.progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url(../img/ajax-loader.gif) 50% 50% no-repeat;
+}
+
+.product-list {
+	padding: 0.5em 1em;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid red;
+}

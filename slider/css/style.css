@@ -1,0 +1,79 @@
+
+/* Reset CSS */
+
+html, body, button, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, samp,
+small, strike, strong, sub, sup, tt, var,
+b, ul, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/***************big slider*****************/
+
+#bigSlider {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 1191px;
+    height: 340px;
+    margin: 200px auto;
+}
+#nav-tabs {
+    float: left;
+}
+#nav-tabs li {
+    list-style-type: none;
+}
+#nav-tabs li a {
+    border-bottom: 1px solid #ccc;
+    border-right:0px solid #ccc;
+    display:block;
+    height:85px;
+    width:280px;
+}
+#nav-tabs #nav-tab4 a {
+    border-bottom: 0px;
+}
+#nav-tabs li a.on {
+    background-color:#F87100;
+    position: relative;
+}
+
+#nav-tabs li.on a {
+    background-color:#F87100;
+    position: relative;
+}
+
+#nav-tabs li.on a:after {
+    background:url('../img/nav-arroww.png') top left no-repeat;
+    content:"";
+    display: block;
+    height: 30px;
+    position: absolute;
+    right: -15px;
+    top:29px;
+    width: 16px;
+}
+
+.wrapper-img {
+    float: left;
+    height:100%;
+    width:910px;
+    overflow: hidden;
+}
+#parentImg {
+    float: left;
+    height:100%;
+    width: 3640px;
+}
+#parentImg li {
+    float: left;
+    list-style-type: none;
+}
